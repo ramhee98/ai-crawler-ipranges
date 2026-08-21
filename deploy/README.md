@@ -16,31 +16,48 @@ in a half-written state.
 
 ## Setup
 
+All commands run **as root** inside the container. `sudo` is not required and not
+used — dropping to the service user goes through `runuser`, which is part of
+util-linux and present on every minimal Debian image.
+
 ```bash
-# In the container, as root:
+apt update && apt install -y git
 git clone https://github.com/ramhee98/ai-crawler-ipranges /opt/ai-crawler-ipranges
 /opt/ai-crawler-ipranges/deploy/install.sh
+```
 
-# Deploy key with write access (Repo → Settings → Deploy keys → Allow write access):
-sudo -u aicrawler ssh-keygen -t ed25519 -N '' -C ai-crawler-ipranges \
-     -f /home/aicrawler/.ssh/id_ed25519
+`install.sh` creates the `aicrawler` user, installs the units and enables the timer
+without starting it — the deploy key is not in place yet, so a run now would fail at
+the push step.
+
+```bash
+# Deploy key (Repo → Settings → Deploy keys → Add deploy key → Allow write access):
+runuser -u aicrawler -- ssh-keygen -t ed25519 -N '' -C ai-crawler-ipranges \
+        -f /home/aicrawler/.ssh/id_ed25519
 cat /home/aicrawler/.ssh/id_ed25519.pub
 
-# Point the clone at SSH so the deploy key is used:
-sudo -u aicrawler git -C /opt/ai-crawler-ipranges remote set-url origin \
-     git@github.com:ramhee98/ai-crawler-ipranges.git
+# Point the clone at SSH so the deploy key is used, and verify it:
+runuser -u aicrawler -- git -C /opt/ai-crawler-ipranges remote set-url origin \
+        git@github.com:ramhee98/ai-crawler-ipranges.git
+runuser -u aicrawler -- ssh -T git@github.com   # expect "successfully authenticated"
 ```
 
 First run without pushing, to confirm everything works:
 
 ```bash
-printf 'PUSH=0\n' | sudo -u aicrawler tee /opt/ai-crawler-ipranges/deploy/.env
-sudo systemctl start ai-crawler-ipranges.service
+echo 'PUSH=0' > /opt/ai-crawler-ipranges/deploy/.env
+chown aicrawler:aicrawler /opt/ai-crawler-ipranges/deploy/.env
+systemctl start ai-crawler-ipranges.service
 journalctl -u ai-crawler-ipranges -n 50 --no-pager
-sudo -u aicrawler git -C /opt/ai-crawler-ipranges log --stat -1
 ```
 
-Then remove `PUSH=0` (or set it to `1`) and start the service again.
+Then arm it:
+
+```bash
+rm /opt/ai-crawler-ipranges/deploy/.env
+systemctl start ai-crawler-ipranges.service   # first real push
+systemctl start ai-crawler-ipranges.timer     # hand over to the schedule
+```
 
 ## Requirements inside the container
 
@@ -63,7 +80,9 @@ Host github.com
 systemctl list-timers ai-crawler-ipranges.timer   # when does it run next
 journalctl -u ai-crawler-ipranges -f              # live log
 systemctl start ai-crawler-ipranges.service       # run now
-sudo -u aicrawler /opt/ai-crawler-ipranges/deploy/update.sh   # run by hand, same env
+
+# run the job by hand, outside systemd, with the same environment:
+runuser -u aicrawler -- /opt/ai-crawler-ipranges/deploy/update.sh
 ```
 
 ### Exit codes
@@ -82,7 +101,7 @@ commit message body, so `git log` tells you when a vendor's endpoint was down.
 Use a drop-in rather than editing the shipped unit:
 
 ```bash
-sudo systemctl edit ai-crawler-ipranges.timer
+systemctl edit ai-crawler-ipranges.timer
 ```
 
 ```ini

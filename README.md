@@ -144,10 +144,11 @@ flagged.
 [`deploy/`](deploy/) contains a systemd timer that crawls, commits and pushes:
 
 ```bash
-sudo deploy/install.sh                        # user, clone, units, timer
-sudo -u aicrawler ssh-keygen -t ed25519 -C ai-crawler-ipranges -f ~aicrawler/.ssh/id_ed25519
+# as root in the container
+deploy/install.sh                             # user, units, timer
+runuser -u aicrawler -- ssh-keygen -t ed25519 -N '' -f /home/aicrawler/.ssh/id_ed25519
 # add the public key as a deploy key with write access, then:
-sudo systemctl start ai-crawler-ipranges.service
+systemctl start ai-crawler-ipranges.service
 journalctl -u ai-crawler-ipranges -f
 ```
 
