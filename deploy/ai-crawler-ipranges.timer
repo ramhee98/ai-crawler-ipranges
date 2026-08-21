@@ -1,0 +1,15 @@
+[Unit]
+Description=Daily refresh of the AI crawler IP ranges
+Documentation=https://github.com/ramhee98/ai-crawler-ipranges
+
+[Timer]
+OnCalendar=*-*-* 04:00:00 UTC
+# Spread the load so every mirror of this timer does not hit the vendors at once.
+RandomizedDelaySec=1h
+# Catch up after the container was suspended or rebooted.
+Persistent=true
+AccuracySec=1min
+Unit=ai-crawler-ipranges.service
+
+[Install]
+WantedBy=timers.target
