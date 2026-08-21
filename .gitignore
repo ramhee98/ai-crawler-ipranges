@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# local deployment overrides (deploy/env.example stays tracked)
+deploy/.env
+
+# editors
+.idea/
+.vscode/
+*.swp
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# NOTE: the generated lists (ipv4.txt, ipv6.txt, *_merged.txt, metadata.json)
+# are the point of this repository and must stay tracked.
