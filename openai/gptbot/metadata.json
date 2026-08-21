@@ -1,0 +1,19 @@
+{
+  "bot": "gptbot",
+  "counts": {
+    "ipv4_addresses": 3472,
+    "ipv4_prefixes": 21,
+    "ipv4_prefixes_merged": 17,
+    "ipv6_prefixes": 0,
+    "ipv6_prefixes_merged": 0
+  },
+  "generated_by": "ai-crawler-ipranges",
+  "note": "Crawls to train foundation models.",
+  "source_creation_time": "2025-10-30T11:00:00.000000",
+  "source_url": "https://openai.com/gptbot.json",
+  "user_agents": [
+    "GPTBot"
+  ],
+  "vendor": "openai",
+  "vendor_name": "OpenAI"
+}

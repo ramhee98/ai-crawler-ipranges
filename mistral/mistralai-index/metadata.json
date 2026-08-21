@@ -1,0 +1,19 @@
+{
+  "bot": "mistralai-index",
+  "counts": {
+    "ipv4_addresses": 2,
+    "ipv4_prefixes": 2,
+    "ipv4_prefixes_merged": 2,
+    "ipv6_prefixes": 0,
+    "ipv6_prefixes_merged": 0
+  },
+  "generated_by": "ai-crawler-ipranges",
+  "note": "Indexing crawler for Le Chat.",
+  "source_creation_time": "2026-04-19T12:00:00.000000",
+  "source_url": "https://mistral.ai/mistralai-index-ips.json",
+  "user_agents": [
+    "MistralAI-Index"
+  ],
+  "vendor": "mistral",
+  "vendor_name": "Mistral AI"
+}

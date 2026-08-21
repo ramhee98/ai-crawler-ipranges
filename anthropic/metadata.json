@@ -1,0 +1,26 @@
+{
+  "counts": {
+    "ipv4_addresses": 1094,
+    "ipv4_prefixes": 26,
+    "ipv4_prefixes_merged": 26,
+    "ipv6_prefixes": 0,
+    "ipv6_prefixes_merged": 0
+  },
+  "docs": "https://support.claude.com/en/articles/8896518",
+  "generated_by": "ai-crawler-ipranges",
+  "note": "Single combined feed covers training, user fetches and search.",
+  "sources": [
+    {
+      "bot": "bots",
+      "source_creation_time": "2026-08-18T23:56:36Z",
+      "url": "https://claude.com/crawling/bots.json",
+      "user_agents": [
+        "ClaudeBot",
+        "Claude-User",
+        "Claude-SearchBot"
+      ]
+    }
+  ],
+  "vendor": "anthropic",
+  "vendor_name": "Anthropic"
+}

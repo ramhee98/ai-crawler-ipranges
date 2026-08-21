@@ -1,0 +1,19 @@
+{
+  "bot": "perplexity-user",
+  "counts": {
+    "ipv4_addresses": 14,
+    "ipv4_prefixes": 4,
+    "ipv4_prefixes_merged": 4,
+    "ipv6_prefixes": 0,
+    "ipv6_prefixes_merged": 0
+  },
+  "generated_by": "ai-crawler-ipranges",
+  "note": "Visits a page in response to a user question.",
+  "source_creation_time": "2025-10-17T10:17:00.000000",
+  "source_url": "https://www.perplexity.ai/perplexity-user.json",
+  "user_agents": [
+    "Perplexity-User"
+  ],
+  "vendor": "perplexity",
+  "vendor_name": "Perplexity"
+}

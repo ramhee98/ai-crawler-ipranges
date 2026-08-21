@@ -1,0 +1,25 @@
+{
+  "counts": {
+    "ipv4_addresses": 7056,
+    "ipv4_prefixes": 33,
+    "ipv4_prefixes_merged": 21,
+    "ipv6_prefixes": 0,
+    "ipv6_prefixes_merged": 0
+  },
+  "docs": "https://support.apple.com/en-us/119829",
+  "generated_by": "ai-crawler-ipranges",
+  "note": "",
+  "sources": [
+    {
+      "bot": "applebot",
+      "source_creation_time": "2026-07-31T10:00:00.000000",
+      "url": "https://search.developer.apple.com/applebot.json",
+      "user_agents": [
+        "Applebot",
+        "Applebot-Extended"
+      ]
+    }
+  ],
+  "vendor": "apple",
+  "vendor_name": "Apple"
+}

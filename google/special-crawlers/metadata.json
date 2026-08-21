@@ -1,0 +1,21 @@
+{
+  "bot": "special-crawlers",
+  "counts": {
+    "ipv4_addresses": 4320,
+    "ipv4_prefixes": 135,
+    "ipv4_prefixes_merged": 17,
+    "ipv6_prefixes": 135,
+    "ipv6_prefixes_merged": 23
+  },
+  "generated_by": "ai-crawler-ipranges",
+  "note": "Includes the Vertex AI and GoogleOther fetchers.",
+  "source_creation_time": "2026-08-20T14:46:21.000000",
+  "source_url": "https://developers.google.com/static/crawling/ipranges/special-crawlers.json",
+  "user_agents": [
+    "GoogleOther",
+    "Google-CloudVertexBot",
+    "Google-Firebase"
+  ],
+  "vendor": "google",
+  "vendor_name": "Google"
+}

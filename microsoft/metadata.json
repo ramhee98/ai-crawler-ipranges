@@ -1,0 +1,25 @@
+{
+  "counts": {
+    "ipv4_addresses": 4736,
+    "ipv4_prefixes": 28,
+    "ipv4_prefixes_merged": 28,
+    "ipv6_prefixes": 0,
+    "ipv6_prefixes_merged": 0
+  },
+  "docs": "https://www.bing.com/webmasters/help/how-to-verify-bingbot-3905dc26",
+  "generated_by": "ai-crawler-ipranges",
+  "note": "Like Google, Microsoft ships one feed for search and AI grounding. Blocking it blocks Bing Search.",
+  "sources": [
+    {
+      "bot": "bingbot",
+      "source_creation_time": "2024-01-03T10:00:00.121331",
+      "url": "https://www.bing.com/toolbox/bingbot.json",
+      "user_agents": [
+        "bingbot",
+        "BingPreview"
+      ]
+    }
+  ],
+  "vendor": "microsoft",
+  "vendor_name": "Microsoft"
+}

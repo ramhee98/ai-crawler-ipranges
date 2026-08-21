@@ -1,0 +1,20 @@
+{
+  "bot": "common-crawlers",
+  "counts": {
+    "ipv4_addresses": 5056,
+    "ipv4_prefixes": 169,
+    "ipv4_prefixes_merged": 41,
+    "ipv6_prefixes": 146,
+    "ipv6_prefixes_merged": 24
+  },
+  "generated_by": "ai-crawler-ipranges",
+  "note": "Google-Extended (Gemini/Vertex training) rides on Googlebot ranges.",
+  "source_creation_time": "2026-08-20T14:46:45.000000",
+  "source_url": "https://developers.google.com/static/crawling/ipranges/common-crawlers.json",
+  "user_agents": [
+    "Googlebot",
+    "Google-Extended"
+  ],
+  "vendor": "google",
+  "vendor_name": "Google"
+}

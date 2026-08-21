@@ -1,0 +1,24 @@
+{
+  "counts": {
+    "ipv4_addresses": 481,
+    "ipv4_prefixes": 481,
+    "ipv4_prefixes_merged": 479,
+    "ipv6_prefixes": 0,
+    "ipv6_prefixes_merged": 0
+  },
+  "docs": "https://duckduckgo.com/duckduckgo-help-pages/results/duckduckbot/",
+  "generated_by": "ai-crawler-ipranges",
+  "note": "",
+  "sources": [
+    {
+      "bot": "duckassistbot",
+      "source_creation_time": "2026-07-03T15:15:37.000000",
+      "url": "https://duckduckgo.com/duckassistbot.json",
+      "user_agents": [
+        "DuckAssistBot"
+      ]
+    }
+  ],
+  "vendor": "duckduckgo",
+  "vendor_name": "DuckDuckGo"
+}

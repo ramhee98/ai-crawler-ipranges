@@ -1,0 +1,19 @@
+{
+  "bot": "oai-searchbot",
+  "counts": {
+    "ipv4_addresses": 2496,
+    "ipv4_prefixes": 35,
+    "ipv4_prefixes_merged": 32,
+    "ipv6_prefixes": 0,
+    "ipv6_prefixes_merged": 0
+  },
+  "generated_by": "ai-crawler-ipranges",
+  "note": "Indexes pages for ChatGPT search results.",
+  "source_creation_time": "2026-01-02T11:00:00.000000",
+  "source_url": "https://openai.com/searchbot.json",
+  "user_agents": [
+    "OAI-SearchBot"
+  ],
+  "vendor": "openai",
+  "vendor_name": "OpenAI"
+}

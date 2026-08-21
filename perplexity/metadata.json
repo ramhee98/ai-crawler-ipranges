@@ -1,0 +1,32 @@
+{
+  "counts": {
+    "ipv4_addresses": 32,
+    "ipv4_prefixes": 12,
+    "ipv4_prefixes_merged": 12,
+    "ipv6_prefixes": 0,
+    "ipv6_prefixes_merged": 0
+  },
+  "docs": "https://docs.perplexity.ai/guides/bots",
+  "generated_by": "ai-crawler-ipranges",
+  "note": "",
+  "sources": [
+    {
+      "bot": "perplexitybot",
+      "source_creation_time": "2025-02-07T16:56:00.000000",
+      "url": "https://www.perplexity.ai/perplexitybot.json",
+      "user_agents": [
+        "PerplexityBot"
+      ]
+    },
+    {
+      "bot": "perplexity-user",
+      "source_creation_time": "2025-10-17T10:17:00.000000",
+      "url": "https://www.perplexity.ai/perplexity-user.json",
+      "user_agents": [
+        "Perplexity-User"
+      ]
+    }
+  ],
+  "vendor": "perplexity",
+  "vendor_name": "Perplexity"
+}

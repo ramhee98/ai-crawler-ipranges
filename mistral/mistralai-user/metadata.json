@@ -1,0 +1,19 @@
+{
+  "bot": "mistralai-user",
+  "counts": {
+    "ipv4_addresses": 4,
+    "ipv4_prefixes": 4,
+    "ipv4_prefixes_merged": 4,
+    "ipv6_prefixes": 0,
+    "ipv6_prefixes_merged": 0
+  },
+  "generated_by": "ai-crawler-ipranges",
+  "note": "Fetches a page on behalf of a Le Chat user.",
+  "source_creation_time": "2025-02-19T12:00:00.000000",
+  "source_url": "https://mistral.ai/mistralai-user-ips.json",
+  "user_agents": [
+    "MistralAI-User"
+  ],
+  "vendor": "mistral",
+  "vendor_name": "Mistral AI"
+}

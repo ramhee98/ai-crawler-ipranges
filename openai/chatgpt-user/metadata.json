@@ -1,0 +1,20 @@
+{
+  "bot": "chatgpt-user",
+  "counts": {
+    "ipv4_addresses": 36016,
+    "ipv4_prefixes": 204,
+    "ipv4_prefixes_merged": 193,
+    "ipv6_prefixes": 0,
+    "ipv6_prefixes_merged": 0
+  },
+  "generated_by": "ai-crawler-ipranges",
+  "note": "Fetches a page because a user or an action asked for it.",
+  "source_creation_time": "2026-08-14T20:03:38.055838",
+  "source_url": "https://openai.com/chatgpt-user.json",
+  "user_agents": [
+    "ChatGPT-User",
+    "ChatGPT-User/2.0"
+  ],
+  "vendor": "openai",
+  "vendor_name": "OpenAI"
+}

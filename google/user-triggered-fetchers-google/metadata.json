@@ -1,0 +1,21 @@
+{
+  "bot": "user-triggered-fetchers-google",
+  "counts": {
+    "ipv4_addresses": 7904,
+    "ipv4_prefixes": 247,
+    "ipv4_prefixes_merged": 38,
+    "ipv6_prefixes": 247,
+    "ipv6_prefixes_merged": 51
+  },
+  "generated_by": "ai-crawler-ipranges",
+  "note": "User-triggered fetches from Google-owned ranges.",
+  "source_creation_time": "2026-08-20T14:46:22.000000",
+  "source_url": "https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers-google.json",
+  "user_agents": [
+    "Google-NotebookLM",
+    "GoogleAgent-Mariner",
+    "Google-Site-Verification"
+  ],
+  "vendor": "google",
+  "vendor_name": "Google"
+}

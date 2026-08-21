@@ -1,0 +1,32 @@
+{
+  "counts": {
+    "ipv4_addresses": 6,
+    "ipv4_prefixes": 6,
+    "ipv4_prefixes_merged": 6,
+    "ipv6_prefixes": 0,
+    "ipv6_prefixes_merged": 0
+  },
+  "docs": "https://docs.mistral.ai/",
+  "generated_by": "ai-crawler-ipranges",
+  "note": "",
+  "sources": [
+    {
+      "bot": "mistralai-index",
+      "source_creation_time": "2026-04-19T12:00:00.000000",
+      "url": "https://mistral.ai/mistralai-index-ips.json",
+      "user_agents": [
+        "MistralAI-Index"
+      ]
+    },
+    {
+      "bot": "mistralai-user",
+      "source_creation_time": "2025-02-19T12:00:00.000000",
+      "url": "https://mistral.ai/mistralai-user-ips.json",
+      "user_agents": [
+        "MistralAI-User"
+      ]
+    }
+  ],
+  "vendor": "mistral",
+  "vendor_name": "Mistral AI"
+}
