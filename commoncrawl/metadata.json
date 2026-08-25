@@ -1,8 +1,8 @@
 {
   "counts": {
-    "ipv4_addresses": 29,
-    "ipv4_prefixes": 5,
-    "ipv4_prefixes_merged": 5,
+    "ipv4_addresses": 28,
+    "ipv4_prefixes": 4,
+    "ipv4_prefixes_merged": 4,
     "ipv6_prefixes": 1,
     "ipv6_prefixes_merged": 1
   },
@@ -12,7 +12,7 @@
   "sources": [
     {
       "bot": "ccbot",
-      "source_creation_time": "2026-08-04T12:40:20Z",
+      "source_creation_time": "2026-08-11T13:40:00Z",
       "url": "https://index.commoncrawl.org/ccbot.json",
       "user_agents": [
         "CCBot"
