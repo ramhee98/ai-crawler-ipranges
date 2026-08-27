@@ -9,7 +9,7 @@
   },
   "generated_by": "ai-crawler-ipranges",
   "note": "Google-Extended (Gemini/Vertex training) rides on Googlebot ranges.",
-  "source_creation_time": "2026-08-25T14:45:51.000000",
+  "source_creation_time": "2026-08-26T14:46:15.000000",
   "source_url": "https://developers.google.com/static/crawling/ipranges/common-crawlers.json",
   "user_agents": [
     "Googlebot",
