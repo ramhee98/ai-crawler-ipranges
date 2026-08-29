@@ -9,7 +9,7 @@
   },
   "generated_by": "ai-crawler-ipranges",
   "note": "User-triggered fetches from Google-owned ranges.",
-  "source_creation_time": "2026-08-27T14:46:30.000000",
+  "source_creation_time": "2026-08-28T14:46:12.000000",
   "source_url": "https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers-google.json",
   "user_agents": [
     "Google-NotebookLM",
