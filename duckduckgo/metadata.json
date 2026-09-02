@@ -1,8 +1,8 @@
 {
   "counts": {
-    "ipv4_addresses": 481,
-    "ipv4_prefixes": 481,
-    "ipv4_prefixes_merged": 479,
+    "ipv4_addresses": 486,
+    "ipv4_prefixes": 486,
+    "ipv4_prefixes_merged": 484,
     "ipv6_prefixes": 0,
     "ipv6_prefixes_merged": 0
   },
@@ -12,7 +12,7 @@
   "sources": [
     {
       "bot": "duckassistbot",
-      "source_creation_time": "2026-07-03T15:15:37.000000",
+      "source_creation_time": "2026-09-01T12:44:58.000000",
       "url": "https://duckduckgo.com/duckassistbot.json",
       "user_agents": [
         "DuckAssistBot"

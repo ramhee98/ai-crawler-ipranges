@@ -1,10 +1,10 @@
 {
   "counts": {
-    "ipv4_addresses": 34176,
-    "ipv4_prefixes": 1079,
-    "ipv4_prefixes_merged": 193,
-    "ipv6_prefixes": 1056,
-    "ipv6_prefixes_merged": 221
+    "ipv4_addresses": 34304,
+    "ipv4_prefixes": 1083,
+    "ipv4_prefixes_merged": 183,
+    "ipv6_prefixes": 1060,
+    "ipv6_prefixes_merged": 213
   },
   "docs": "https://developers.google.com/search/docs/crawling-indexing/verifying-googlebot",
   "generated_by": "ai-crawler-ipranges",
@@ -12,7 +12,7 @@
   "sources": [
     {
       "bot": "common-crawlers",
-      "source_creation_time": "2026-08-31T14:46:46.000000",
+      "source_creation_time": "2026-09-01T14:45:54.000000",
       "url": "https://developers.google.com/static/crawling/ipranges/common-crawlers.json",
       "user_agents": [
         "Googlebot",
@@ -21,7 +21,7 @@
     },
     {
       "bot": "special-crawlers",
-      "source_creation_time": "2026-08-31T14:46:39.000000",
+      "source_creation_time": "2026-09-01T14:46:55.000000",
       "url": "https://developers.google.com/static/crawling/ipranges/special-crawlers.json",
       "user_agents": [
         "GoogleOther",
@@ -31,7 +31,7 @@
     },
     {
       "bot": "user-triggered-fetchers",
-      "source_creation_time": "2026-08-31T14:46:36.000000",
+      "source_creation_time": "2026-09-01T14:45:48.000000",
       "url": "https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers.json",
       "user_agents": [
         "Google-NotebookLM",
@@ -41,7 +41,7 @@
     },
     {
       "bot": "user-triggered-fetchers-google",
-      "source_creation_time": "2026-08-31T14:46:39.000000",
+      "source_creation_time": "2026-09-01T14:45:54.000000",
       "url": "https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers-google.json",
       "user_agents": [
         "Google-NotebookLM",
