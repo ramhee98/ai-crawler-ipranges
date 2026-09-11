@@ -1,8 +1,8 @@
 {
   "counts": {
-    "ipv4_addresses": 41280,
-    "ipv4_prefixes": 258,
-    "ipv4_prefixes_merged": 238,
+    "ipv4_addresses": 41344,
+    "ipv4_prefixes": 262,
+    "ipv4_prefixes_merged": 242,
     "ipv6_prefixes": 0,
     "ipv6_prefixes_merged": 0
   },

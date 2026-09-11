@@ -1,9 +1,9 @@
 {
   "bot": "oai-searchbot",
   "counts": {
-    "ipv4_addresses": 2496,
-    "ipv4_prefixes": 35,
-    "ipv4_prefixes_merged": 32,
+    "ipv4_addresses": 2560,
+    "ipv4_prefixes": 39,
+    "ipv4_prefixes_merged": 36,
     "ipv6_prefixes": 0,
     "ipv6_prefixes_merged": 0
   },
