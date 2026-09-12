@@ -12,7 +12,7 @@
   "sources": [
     {
       "bot": "common-crawlers",
-      "source_creation_time": "2026-09-10T14:45:50.000000",
+      "source_creation_time": "2026-09-11T14:46:08.000000",
       "url": "https://developers.google.com/static/crawling/ipranges/common-crawlers.json",
       "user_agents": [
         "Googlebot",
@@ -21,7 +21,7 @@
     },
     {
       "bot": "special-crawlers",
-      "source_creation_time": "2026-09-10T14:45:44.000000",
+      "source_creation_time": "2026-09-11T14:46:08.000000",
       "url": "https://developers.google.com/static/crawling/ipranges/special-crawlers.json",
       "user_agents": [
         "GoogleOther",
@@ -31,7 +31,7 @@
     },
     {
       "bot": "user-triggered-fetchers",
-      "source_creation_time": "2026-09-10T14:45:51.000000",
+      "source_creation_time": "2026-09-11T14:46:07.000000",
       "url": "https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers.json",
       "user_agents": [
         "Google-NotebookLM",
@@ -41,7 +41,7 @@
     },
     {
       "bot": "user-triggered-fetchers-google",
-      "source_creation_time": "2026-09-10T14:45:47.000000",
+      "source_creation_time": "2026-09-11T14:46:08.000000",
       "url": "https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers-google.json",
       "user_agents": [
         "Google-NotebookLM",
