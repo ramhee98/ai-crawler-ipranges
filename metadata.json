@@ -1,8 +1,8 @@
 {
   "counts": {
-    "ipv4_addresses": 89166,
-    "ipv4_prefixes": 1945,
-    "ipv4_prefixes_merged": 1011,
+    "ipv4_addresses": 86862,
+    "ipv4_prefixes": 1936,
+    "ipv4_prefixes_merged": 1002,
     "ipv6_prefixes": 1061,
     "ipv6_prefixes_merged": 214
   },
@@ -17,9 +17,9 @@
       "ipv6_prefixes_merged": 0
     },
     "apple": {
-      "ipv4_addresses": 7056,
-      "ipv4_prefixes": 33,
-      "ipv4_prefixes_merged": 21,
+      "ipv4_addresses": 4752,
+      "ipv4_prefixes": 24,
+      "ipv4_prefixes_merged": 12,
       "ipv6_prefixes": 0,
       "ipv6_prefixes_merged": 0
     },

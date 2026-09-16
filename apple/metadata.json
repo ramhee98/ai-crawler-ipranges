@@ -1,8 +1,8 @@
 {
   "counts": {
-    "ipv4_addresses": 7056,
-    "ipv4_prefixes": 33,
-    "ipv4_prefixes_merged": 21,
+    "ipv4_addresses": 4752,
+    "ipv4_prefixes": 24,
+    "ipv4_prefixes_merged": 12,
     "ipv6_prefixes": 0,
     "ipv6_prefixes_merged": 0
   },
@@ -12,7 +12,7 @@
   "sources": [
     {
       "bot": "applebot",
-      "source_creation_time": "2026-07-31T10:00:00.000000",
+      "source_creation_time": "2026-09-15T10:00:00.000000",
       "url": "https://search.developer.apple.com/applebot.json",
       "user_agents": [
         "Applebot",
