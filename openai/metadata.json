@@ -1,8 +1,8 @@
 {
   "counts": {
-    "ipv4_addresses": 41616,
-    "ipv4_prefixes": 279,
-    "ipv4_prefixes_merged": 258,
+    "ipv4_addresses": 40912,
+    "ipv4_prefixes": 280,
+    "ipv4_prefixes_merged": 260,
     "ipv6_prefixes": 0,
     "ipv6_prefixes_merged": 0
   },
@@ -12,7 +12,7 @@
   "sources": [
     {
       "bot": "gptbot",
-      "source_creation_time": "2025-10-30T11:00:00.000000",
+      "source_creation_time": "2026-09-22T02:00:07.000000",
       "url": "https://openai.com/gptbot.json",
       "user_agents": [
         "GPTBot"
@@ -28,7 +28,7 @@
     },
     {
       "bot": "chatgpt-user",
-      "source_creation_time": "2026-09-21T17:15:20.184655",
+      "source_creation_time": "2026-09-22T18:05:10.220322",
       "url": "https://openai.com/chatgpt-user.json",
       "user_agents": [
         "ChatGPT-User",
