@@ -9,7 +9,7 @@
   },
   "generated_by": "ai-crawler-ipranges",
   "note": "Includes the Vertex AI and GoogleOther fetchers.",
-  "source_creation_time": "2026-10-02T14:46:13.000000",
+  "source_creation_time": "2026-10-05T14:47:01.000000",
   "source_url": "https://developers.google.com/static/crawling/ipranges/special-crawlers.json",
   "user_agents": [
     "GoogleOther",
