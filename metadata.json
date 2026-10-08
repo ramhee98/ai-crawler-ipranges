@@ -1,8 +1,8 @@
 {
   "counts": {
-    "ipv4_addresses": 86638,
-    "ipv4_prefixes": 1962,
-    "ipv4_prefixes_merged": 1025,
+    "ipv4_addresses": 86632,
+    "ipv4_prefixes": 1971,
+    "ipv4_prefixes_merged": 1034,
     "ipv6_prefixes": 1066,
     "ipv6_prefixes_merged": 216
   },
@@ -10,9 +10,9 @@
   "stale_sources": [],
   "vendors": {
     "anthropic": {
-      "ipv4_addresses": 1126,
-      "ipv4_prefixes": 28,
-      "ipv4_prefixes_merged": 28,
+      "ipv4_addresses": 1136,
+      "ipv4_prefixes": 38,
+      "ipv4_prefixes_merged": 38,
       "ipv6_prefixes": 0,
       "ipv6_prefixes_merged": 0
     },
@@ -59,9 +59,9 @@
       "ipv6_prefixes_merged": 0
     },
     "openai": {
-      "ipv4_addresses": 41008,
-      "ipv4_prefixes": 286,
-      "ipv4_prefixes_merged": 266,
+      "ipv4_addresses": 40992,
+      "ipv4_prefixes": 285,
+      "ipv4_prefixes_merged": 265,
       "ipv6_prefixes": 0,
       "ipv6_prefixes_merged": 0
     },

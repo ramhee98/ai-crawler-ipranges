@@ -1,8 +1,8 @@
 {
   "counts": {
-    "ipv4_addresses": 1126,
-    "ipv4_prefixes": 28,
-    "ipv4_prefixes_merged": 28,
+    "ipv4_addresses": 1136,
+    "ipv4_prefixes": 38,
+    "ipv4_prefixes_merged": 38,
     "ipv6_prefixes": 0,
     "ipv6_prefixes_merged": 0
   },
@@ -12,7 +12,7 @@
   "sources": [
     {
       "bot": "bots",
-      "source_creation_time": "2026-10-02T00:00:00Z",
+      "source_creation_time": "2026-10-07T00:00:00Z",
       "url": "https://claude.com/crawling/bots.json",
       "user_agents": [
         "ClaudeBot",
