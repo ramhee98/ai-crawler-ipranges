@@ -1,7 +1,7 @@
 {
   "bot": "chatgpt-user",
   "counts": {
-    "ipv4_addresses": 36496,
+    "ipv4_addresses": 69264,
     "ipv4_prefixes": 234,
     "ipv4_prefixes_merged": 223,
     "ipv6_prefixes": 0,
@@ -9,7 +9,7 @@
   },
   "generated_by": "ai-crawler-ipranges",
   "note": "Fetches a page because a user or an action asked for it.",
-  "source_creation_time": "2026-10-07T16:05:32.418450",
+  "source_creation_time": "2026-10-20T17:07:39.673498",
   "source_url": "https://openai.com/chatgpt-user.json",
   "user_agents": [
     "ChatGPT-User",
