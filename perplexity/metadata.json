@@ -1,8 +1,8 @@
 {
   "counts": {
-    "ipv4_addresses": 23,
-    "ipv4_prefixes": 23,
-    "ipv4_prefixes_merged": 9,
+    "ipv4_addresses": 31,
+    "ipv4_prefixes": 31,
+    "ipv4_prefixes_merged": 10,
     "ipv6_prefixes": 0,
     "ipv6_prefixes_merged": 0
   },
@@ -12,7 +12,7 @@
   "sources": [
     {
       "bot": "perplexitybot",
-      "source_creation_time": "2026-10-28T16:48:51.000000",
+      "source_creation_time": "2026-11-18T16:30:18.000000",
       "url": "https://www.perplexity.ai/perplexitybot.json",
       "user_agents": [
         "PerplexityBot"
