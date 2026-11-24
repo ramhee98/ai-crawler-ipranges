@@ -1,10 +1,10 @@
 {
   "counts": {
-    "ipv4_addresses": 119812,
-    "ipv4_prefixes": 1984,
-    "ipv4_prefixes_merged": 1019,
-    "ipv6_prefixes": 1080,
-    "ipv6_prefixes_merged": 220
+    "ipv4_addresses": 119940,
+    "ipv4_prefixes": 1988,
+    "ipv4_prefixes_merged": 1020,
+    "ipv6_prefixes": 1084,
+    "ipv6_prefixes_merged": 219
   },
   "generated_by": "ai-crawler-ipranges",
   "stale_sources": [],
@@ -38,11 +38,11 @@
       "ipv6_prefixes_merged": 0
     },
     "google": {
-      "ipv4_addresses": 34912,
-      "ipv4_prefixes": 1102,
-      "ipv4_prefixes_merged": 193,
-      "ipv6_prefixes": 1079,
-      "ipv6_prefixes_merged": 219
+      "ipv4_addresses": 35040,
+      "ipv4_prefixes": 1106,
+      "ipv4_prefixes_merged": 194,
+      "ipv6_prefixes": 1083,
+      "ipv6_prefixes_merged": 218
     },
     "microsoft": {
       "ipv4_addresses": 4752,
