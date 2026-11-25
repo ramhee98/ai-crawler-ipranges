@@ -1,8 +1,8 @@
 {
   "counts": {
-    "ipv4_addresses": 119940,
-    "ipv4_prefixes": 1988,
-    "ipv4_prefixes_merged": 1020,
+    "ipv4_addresses": 121876,
+    "ipv4_prefixes": 2109,
+    "ipv4_prefixes_merged": 1128,
     "ipv6_prefixes": 1084,
     "ipv6_prefixes_merged": 219
   },
@@ -59,9 +59,9 @@
       "ipv6_prefixes_merged": 0
     },
     "openai": {
-      "ipv4_addresses": 73808,
-      "ipv4_prefixes": 288,
-      "ipv4_prefixes_merged": 267,
+      "ipv4_addresses": 75744,
+      "ipv4_prefixes": 409,
+      "ipv4_prefixes_merged": 375,
       "ipv6_prefixes": 0,
       "ipv6_prefixes_merged": 0
     },
