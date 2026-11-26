@@ -1,8 +1,8 @@
 {
   "counts": {
-    "ipv4_addresses": 75744,
-    "ipv4_prefixes": 409,
-    "ipv4_prefixes_merged": 375,
+    "ipv4_addresses": 75888,
+    "ipv4_prefixes": 418,
+    "ipv4_prefixes_merged": 382,
     "ipv6_prefixes": 0,
     "ipv6_prefixes_merged": 0
   },
@@ -28,7 +28,7 @@
     },
     {
       "bot": "chatgpt-user",
-      "source_creation_time": "2026-11-25T01:04:46.078664",
+      "source_creation_time": "2026-11-25T07:18:51.504798",
       "url": "https://openai.com/chatgpt-user.json",
       "user_agents": [
         "ChatGPT-User",
